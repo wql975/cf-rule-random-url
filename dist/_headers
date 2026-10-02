@@ -1,0 +1,4 @@
+# 静态图片：文件名固定、内容不变，可长期缓存以减少回源
+# 注意：/pc 这类分类路径由 Functions 返回 302，其响应头由函数自身控制（已设为 no-store），不受本文件影响
+/*.jpg
+  Cache-Control: public, max-age=31536000, immutable

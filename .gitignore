@@ -1,0 +1,9 @@
+# 中间产物
+.tmp/
+
+# 原始素材（946MB，本地保留即可，部署只需要 dist）
+oriImg/
+
+# Python
+__pycache__/
+*.pyc
